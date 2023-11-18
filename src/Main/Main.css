@@ -1,0 +1,46 @@
+.Main{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    height: 100%;
+    text-align: center;
+}
+
+.container-card{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    height: 100% ;
+    width: 100%;
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 4% 0 4% 0;
+    background-color: #f8f8f5;
+}
+
+.component-card{
+    text-align: center;
+    border: 1px solid black;
+    margin: 2%;
+    width: 500px;
+    height: 200px;
+}
+
+.button-next{
+    background-color: #86928B;
+    border-radius: 50%;
+    color: white;
+    width: 40px;
+    height: 40px;
+    margin-left: 2px;
+
+}
+
+.button-previous{
+    background-color: #86928B;
+    border-radius: 50%;
+    color: white;
+    width: 40px;
+    height: 40px;
+
+}
