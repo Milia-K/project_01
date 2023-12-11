@@ -1,11 +1,11 @@
 import React from 'react'
-import Card from '../Card/Card';
+import Card from './Card';
+
 
 function CardContainer() {
     return (
     <div className='container-card'>
-        <Card>
-        </Card>
+        <Card></Card>
     </div>
     )
 }

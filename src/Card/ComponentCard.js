@@ -15,8 +15,16 @@ class ComponentCard extends Component{
         }));
     };
 
+    componentDidUpdate(prevProps) {
+        if (prevProps.english !== this.props.english) {
+            this.setState({
+                isClicked: false
+            });
+        }
+    }
+
     render (){
-        const {english, transcription, russian} = this.props;
+        const {english, transcription, russian } = this.props;
         const { isClicked } = this.state;
         const componentStyle_question = {
             display: isClicked ? 'none' : 'contents',

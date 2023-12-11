@@ -1,12 +1,11 @@
-import './Main.css'
-import CardContainer from './CardContainer';
+import React from 'react';
+import './Main.css';
+import Content from './Content';
 
-function Main(){
-    return(
-        <div className='Main'>
-            <CardContainer />
-        </div>
-    )
+export default function Main() {
+  return (
+    <div className='Main'>
+        <Content />
+    </div>
+  )
 }
-
-export default Main;
